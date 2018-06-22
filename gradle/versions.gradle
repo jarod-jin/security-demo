@@ -1,0 +1,15 @@
+ext {
+    libVersions = [
+            lombok   : '1.18.0',
+            lang3    : '3.7',
+            jsoup    : '1.11.3',
+            fastjson : '1.2.47',
+    ]
+    testLibVersions = [
+            junit       : '5.2.0',
+            mockito     : '2.19.0',
+            cucumber    : '3.0.2',
+            assertj     : '3.8.0',
+            selenium    : '2.53.1',
+    ]
+}

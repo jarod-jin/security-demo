@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  session-timeout: 30
+  tomcat.max-threads: 0
+  tomcat.uri-encoding: UTF-8
+
+
+cucumber:
+  port: 8080
+  context-path:
