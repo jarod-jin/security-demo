@@ -9,7 +9,7 @@ ext {
             junit       : '5.2.0',
             mockito     : '2.19.0',
             cucumber    : '3.0.2',
-            assertj     : '3.8.0',
+            assertj     : '3.10.0',
             selenium    : '2.53.1',
     ]
 }

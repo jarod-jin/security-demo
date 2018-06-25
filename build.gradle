@@ -21,4 +21,3 @@ sourceCompatibility = 10
 
 apply from: "gradle/versions.gradle"
 apply from: "gradle/dependency.gradle"
-apply from: "gradle/mybatis-generator.gradle"

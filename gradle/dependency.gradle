@@ -21,6 +21,7 @@ dependencies {
             [group: 'org.springframework.boot', name: 'spring-boot-starter-web'],
             [group: 'com.alibaba', name: 'fastjson', version: libVersions.fastjson],
             [group: 'org.projectlombok', name: 'lombok', version: libVersions.lombok],
+            [group: 'org.jsoup', name: 'jsoup', version: libVersions.jsoup],
     )
 
     runtime(
@@ -33,7 +34,6 @@ dependencies {
             [group: 'org.mockito', name: 'mockito-core', version: testLibVersions.mockito],
             [group: 'io.cucumber', name: 'cucumber-java', version: testLibVersions.cucumber],
             [group: 'io.cucumber', name: 'cucumber-spring', version: testLibVersions.cucumber],
-            [group: 'io.cucumber', name: 'cucumber-junit', version: testLibVersions.cucumber],
             [group: 'org.assertj', name: 'assertj-core', version: testLibVersions.assertj],
             [group: 'org.seleniumhq.selenium', name: 'selenium-java', version: testLibVersions.selenium],
     )
